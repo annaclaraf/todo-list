@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #F5F5F5;
+    max-width: 60%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.title{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.form{
+      margin: auto;
+      padding-top: 1rem;
+      text-align: center
+}
+
+input[type='text']{
+    padding: 5px;
+    outline: none;
+    width:40%;
+}
+
+input[type='submit'], button, a{
+    cursor: pointer;
+}
+
+.btn {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: white
+}
+
+.btnAdd{
+    background: #6495ED;
+}
+
+.btnSave {
+    background: #00CD00;
+}
+
+.btnEdit{
+    background:#FFA54F;
+    color: black;
+
+}
+
+.btnDelete{
+    background:#FF0000;
+}
+
+table {
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+th h3{
+    text-align: left;
+}
+
+
+td{
+    padding: 2px;
+    text-align: left;
+}
+
+.taskname{
+    padding-right: 1rem;
+}
+
+#edit-box{
+    display: none;
+    margin-left: 2rem;
+    padding-bottom: 3rem;
+}
+
+

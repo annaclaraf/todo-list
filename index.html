@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <main class="container">
+
+        <div class="title">
+            <h1>To-Do List</h1>
+        </div>
+
+        <div class="form">
+            <form action="javascript:void(0);" method="POST" onsubmit="app.create()">
+                <input type="text" id="add-todo" placeholder="New Task">
+                <input type="submit" value="Add" class="btn btnAdd">
+
+                <table>
+                    <tr class="to-do">
+                        <th>
+                            <h3>Tasks:</h3>
+                        </th>
+                    </tr>
+                    <tbody id="tasks">
+                    </tbody>
+                </table>
+            </form>
+        </div>
+
+        <div id="edit-box">
+            <form action="javascript:void(0);" method="POST" id="save-edit">
+                <input type="text" id="edit-todo">
+                <input type="submit" value="Save" class="btn btnSave" /> 
+                <a onclick="app.closeInput()" >&#10006;</a> 
+            </form>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
