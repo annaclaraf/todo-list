@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,8 @@
 
 .container {
     background: #F5F5F5;
-    max-width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    width: min(90vw, 800px);
     margin: auto;
     margin-top: 2rem;
     border-radius: 10px;
@@ -59,27 +62,23 @@ input[type='submit'], button, a{
 }
 
 table {
-    margin-left: 2rem;
+    margin: 1rem 1rem 0;
     padding-bottom: 1rem;
-}
-
-th h3{
     text-align: left;
 }
-
 
 td{
-    padding: 2px;
-    text-align: left;
+    padding: 3px;
 }
 
-.taskname{
+.taskname {
     padding-right: 1rem;
+    word-break: break-all;
 }
 
 #edit-box{
     display: none;
-    margin-left: 2rem;
+    margin-left: 1rem;
     padding-bottom: 3rem;
 }
 
